@@ -64,12 +64,12 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 5;
-//    // Return the number of rows in the section.
-//    NSDictionary *dictionary = [self.headerSectionsArray objectAtIndex:section];
-//    NSMutableDictionary *sectionDetailsDictionary = [NSMutableDictionary dictionaryWithDictionary:dictionary];
-//    int rowCount = [sectionDetailsDictionary[@"rows"] intValue];
-//    return rowCount;
+//    return 5;
+    // Return the number of rows in the section.
+    NSDictionary *dictionary = [self.headerSectionsArray objectAtIndex:section];
+    NSMutableDictionary *sectionDetailsDictionary = [NSMutableDictionary dictionaryWithDictionary:dictionary];
+    int rowCount = [sectionDetailsDictionary[@"rows"] intValue];
+    return rowCount;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
@@ -111,6 +111,7 @@
         [self.headerSectionsArray replaceObjectAtIndex:section withObject:sectionDetailsDictionary];
         
         [self.tableView insertRowsAtIndexPaths:cellsArray withRowAnimation:UITableViewRowAnimationLeft];
+        [self.tableView reloadData];
     }
     else if(inCollapsedState || rowCount > 0) //Collapse.
     {
