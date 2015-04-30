@@ -2,8 +2,8 @@
 //  CollapsableTableViewHeaderViewController.m
 //  CollapsableTableView
 //
-//  Created by S Rajkumar on 30/04/14.
-//  Copyright (c) 2014 Happiest Minds. All rights reserved.
+//  Created by S Prem Kumar on 30/04/14.
+//  Copyright (c) 2014 FreakApps. All rights reserved.
 //
 
 

@@ -393,6 +393,7 @@
 				INFOPLIST_FILE = "CollapsableTVC/CollapsableTVC-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,6 +408,7 @@
 				INFOPLIST_FILE = "CollapsableTVC/CollapsableTVC-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +472,7 @@
 				3B901AD81919F646001133E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B901AD91919F646001133E9 /* Build configuration list for PBXNativeTarget "CollapsableTVCTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +481,7 @@
 				3B901ADB1919F646001133E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
